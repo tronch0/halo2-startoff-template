@@ -1,5 +1,4 @@
 use halo2_proofs::circuit::{AssignedCell, Chip, Layouter, SimpleFloorPlanner};
-use halo2_proofs::dev::MockProver;
 use halo2_proofs::pasta::Fp;
 use halo2_proofs::plonk::{Advice, Circuit, Column, ConstraintSystem, Error, Fixed, Instance, Selector};
 use halo2_proofs::poly::Rotation;

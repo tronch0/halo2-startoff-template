@@ -1,6 +1,5 @@
 use halo2_proofs::dev::MockProver;
 use halo2_proofs::pasta::Fp;
-use halo2_vitalik::my_circuit;
 use halo2_vitalik::my_circuit::MyCircuit;
 
 fn main() {
